@@ -3,13 +3,13 @@
 #
 
 # Name of your site (displayed in the header)
-name: Reverie
+name: Liam Media
 
 # Name of the author
-author: Amit Merchant
+author: Liam Nilsen
 
 # Short bio or description (displayed in the header)
-description: An elegant Jekyll theme
+description: A website all about Liam Nilsen
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/reverie.png
@@ -21,15 +21,15 @@ avatar: /images/reverie.png
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: amit.d.merchant@gmail.com
+  email: 
   facebook:
   flickr:
-  github: amitmerchant1990/reverie
+  github: 
   instagram:
   linkedin: 
   pinterest:
-  rss: rss
-  twitter: amit_merchant
+  rss: 
+  twitter: 
   stackoverflow: 
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
@@ -94,4 +94,11 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+# Adding this on 2024-11-03 to make images contain metadata. A recommendation from Cursor. 
+defaults:
+  - scope:
+      path: "images"    # Targets all files in this directory
+    values:
+      image: true             # Adds {image: true} to each file's front matter
 
